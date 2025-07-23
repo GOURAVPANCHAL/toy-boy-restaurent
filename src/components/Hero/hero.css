@@ -1,0 +1,239 @@
+.hero1 {
+  background-image: url(../../images/noida1.jpg);
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.hero1overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.herosection {
+  padding: 3rem 0rem;
+  max-width: 50%;
+  margin: auto;
+  text-align: center;
+  z-index: 1;
+}
+
+.cont {
+  z-index: 2;
+}
+
+.heroheading {
+  font-size: 100px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 20px;
+  margin-top: 3rem;
+  line-height: 100px;
+}
+
+.heroDisc {
+  font-size: 20px;
+  color: white;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.overmenu {
+  background-color: transparent;
+  border-top: 3px solid #ca9c5e;
+  border-bottom: 3px solid #ca9c5e;
+  border-left: 0;
+
+  border-right: 0;
+  border-radius: 10px;
+  color: white;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.overmenu:hover {
+  background-color: #ca9c5e;
+  color: white;
+}
+.leaf {
+  background-image: url(../../images/home-leaf-right-1.png);
+  width: 476px;
+  aspect-ratio: auto 476 / 544;
+  height: 544px;
+  position: absolute;
+  left: 0;
+  background-repeat: no-repeat;
+}
+
+.hero2 {
+  background-color: #0b1517;
+  padding: 5rem 5rem;
+}
+.hero2 .container .row {
+  display: flex;
+  align-items: center;
+}
+.hero2Content h6 {
+  color: white;
+  font-weight: 500;
+}
+.hero2Content h1 {
+  color: #ca9c5e;
+  font-weight: 500;
+}
+
+.hero3Content {
+  max-width: 50%;
+  margin: auto;
+  text-align: center;
+}
+.hero3Content h6 {
+  color: white;
+}
+.hero3Content h1 {
+  color: white;
+  font-weight: 600;
+}
+
+.divider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+    position: relative;
+  }
+  
+  .divider::before,
+  .divider::after {
+    content: '';
+    flex-grow: 1;
+    height: 1px;
+    background-color: #b38358; /* Adjust this color to match your design */
+  }
+  
+  .divider::before {
+    margin-right: 10px; /* Space between line and text */
+  }
+  
+  .divider::after {
+    margin-left: 10px; /* Space between line and text */
+  }
+  
+  .divider span {
+    color: #b38358; /* Text color */
+    font-size: 1.2em; /* Adjust font size as needed */
+    font-weight: bold; /* Make the text bold */
+  }
+  .foodMenu{
+    background-color: white;
+    padding: 4rem 2rem;
+    height: 100%;
+}
+
+.drinkMenu{
+    background-color: #E7E7E7;
+    padding: 4rem 3rem;
+    height: 100%;
+}
+.foodmenubutton{
+    background-color: #b38358;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    border: none;
+}
+.barmenu{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    border: none;
+}
+.reservation{
+    background-image: url(../../images/noida14.jpg);
+    width: 100%;
+    background-position: top;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.reservationOverlay{
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.reservationContent {
+  padding: 3rem 0rem;
+    color: white;
+    text-align: center;
+}
+
+
+.locations{
+    background-color: #0b1517;
+    color: #b38358;
+   display: flex;
+}
+.locations .container{
+
+   padding: 2rem;
+}
+
+.navbar-brand img{
+  height: 100px 
+}
+@media (max-width:768px) {
+  .reservationContent {
+    margin-top: 0rem;
+}
+  .herosection {
+    max-width: 90%;
+    text-align: center;
+    margin: auto;
+    top: 30px;
+
+  }
+  
+.heroheading {
+  font-size: 30px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 20px;
+  margin-top: 1rem;
+  line-height: 30px;
+}
+.hero2{
+padding: 0;
+}
+.foodMenu{
+padding: 1rem 1rem;
+}
+.drinkMenu{
+  padding: 1rem 1rem;
+}
+.hero1{
+align-items: center;
+margin-bottom: 1rem;
+}
+.navbar-brand img{
+  height: 50px 
+}
+}

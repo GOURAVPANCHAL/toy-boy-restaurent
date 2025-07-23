@@ -1,0 +1,47 @@
+.food-menu-section {
+    background-color: #0b0b0b;
+}
+
+.menu-title {
+    color: #ff4c4c;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+.menu-details .row {
+    margin-bottom: 1rem;
+}
+
+.form-control-plaintext {
+    background-color: #333;
+    border: none;
+    color: #fff;
+    text-align: right;
+}
+
+.food_drink_heading{
+    font-size: 5em;
+}
+.foodBox{
+    padding: 2rem 2rem;
+    text-align: center;
+    max-width: 60%;
+    margin: auto;
+}
+
+.drinkmenuminiImage{
+    object-fit: cover;
+    aspect-ratio: 1;
+}
+
+@media (max-width:768px) {
+    .foodBox{
+        padding: 2rem 0rem;
+        text-align: center;
+        max-width: 100%;
+        margin: auto;
+    }
+    .food_drink_heading{
+        font-size: 2em;
+    }
+}

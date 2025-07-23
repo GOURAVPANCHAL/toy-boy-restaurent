@@ -1,0 +1,38 @@
+.franchise i{
+    font-size: 50px;
+    color: #CA9C5E;
+}
+
+
+
+/* ContactForm.css */
+
+.franchiseForm {
+    background-color: #121b20;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .franchiseForm .form-control {
+    background-color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .franchiseForm .btn-custom {
+    background-color: #bc8d51;
+    color: #ffffff;
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .franchiseForm .btn-custom:hover {
+    background-color: #a6793b;
+  }
+  

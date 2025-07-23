@@ -1,0 +1,51 @@
+.custom-modal {
+    background-color: black;
+    border: none;
+    border-radius: 10px;
+  }
+
+  .custom-modal .modal-header {
+    border-bottom: none;
+  }
+
+  .custom-modal .modal-content {
+    color: white;
+  }
+
+  .btn-close {
+    filter: invert(1); /* Makes the close button white */
+  }
+
+  /* Custom Input Styles */
+  .custom-input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid white;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 15px;
+  }
+
+  .custom-input:focus {
+    box-shadow: none;
+    border-color: #f0f0f0;
+  }
+
+  /* Label Styles */
+  .form-label {
+    color: white;
+  }
+
+  /* Button Styles */
+  .btn-primary {
+    background-color: #ffffff;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+  }
+
+  .btn-primary:hover {
+    background-color: #f0f0f0;
+    color: black;
+  }
