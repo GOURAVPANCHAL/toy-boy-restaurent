@@ -11,7 +11,7 @@ const Footer = () => {
           <footer>
             <div className="row">
               <div className="col-md-3">
-                <ul>
+                <ul className="m-0">
                   <li>
                     <Link to="#galleria">
                       <i className="bi bi-cup-fill"></i> ToyBoy Bangalore
@@ -20,33 +20,33 @@ const Footer = () => {
                   <li>
                     <Link to="tel:+917788993876">
                       <i className="bi bi-telephone-outbound-fill"></i>
-                     +91 7788993876
+                      +91 7788993876
                     </Link>
                   </li>
                   <li>
                     <Link to="tel:7788993864">
                       <i className="bi bi-telephone-outbound-fill"></i>
-                     +91 7788993863
+                      +91 7788993863
                     </Link>
                   </li>
                   <li>
-                    <Link to="mailto:Franchise@toyboy.in">
+                    <Link to="mailto:Unitheadblr@toyboyindia.in">
                       <i className="bi bi-envelope-fill"></i>
-                      Franchise@toyboy.in
+                      Unitheadblr@toyboyindia.in
                     </Link>
                   </li>
                   <li>
-                    <Link to="mailto:BDblr@toyboy.in">
+                    <Link to="mailto:admin@toyboyindia.in">
                       <i className="bi bi-envelope-fill"></i>
-                      BDblr@toyboy.in
+                      admin@toyboyindia.in
                     </Link>
                   </li>
-                  <li>
+                  {/* <li>
                     <Link to="mailto:RMblr@toyboy.in">
                       <i className="bi bi-envelope-fill"></i>
                       RMblr@toyboy.in
                     </Link>
-                  </li>
+                  </li> */}
                   <li>
                     <Link to="#location">
                       <i className="bi bi-geo-alt-fill"></i>
@@ -57,7 +57,7 @@ const Footer = () => {
                 </ul>
               </div>
               <div className="col-md-3">
-                <ul>
+                <ul className="m-0">
                   <li>
                     <Link to="#advant">
                       <i className="bi bi-cup-fill"></i> ToyBoy Gardens Galleria
@@ -71,15 +71,15 @@ const Footer = () => {
                     </Link>
                   </li>
                   <li>
-                    <Link to="mailto:advant@ToyBoyindia.in">
+                    <Link to="mailto:Unitheadgalleria@toyboyindia.in">
                       <i className="bi bi-envelope-fill"></i>
-                      advant@ToyBoyindia.in
+                      Unitheadgalleria@toyboyindia.in
                     </Link>
                   </li>
                   <li>
-                    <Link to="mailto:franchise@ToyBoyindia.in">
+                    <Link to="mailto:admin@toyboyindia.in">
                       <i className="bi bi-envelope-fill"></i>
-                      franchise@ToyBoyindia.in, vp@ToyBoyindia.in, bd@ToyBoyindia.in
+                      admin@toyboyindia.in
                     </Link>
                   </li>
                   <li>
@@ -92,7 +92,7 @@ const Footer = () => {
                 </ul>
               </div>
               <div className="col-md-3">
-                <ul>
+                <ul className="m-0">
                   <li>
                     <Link to="#bhopal">
                       <i className="bi bi-cup-fill"></i> ToyBoy Advant
@@ -111,9 +111,15 @@ const Footer = () => {
                     </Link>
                   </li> */}
                   <li>
-                    <Link to="mailto:franchise@ToyBoyindia.in">
+                    <Link to="mailto:Unitheadadvant@toyboyindia.in">
                       <i className="bi bi-envelope-fill"></i>
-                      franchise@ToyBoyindia.in, vp@ToyBoyindia.in, bd@ToyBoyindia.in
+                      Unitheadadvant@toyboyindia.in
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="mailto:admin@toyboyindia.in">
+                      <i className="bi bi-envelope-fill"></i>
+                      admin@toyboyindia.in
                     </Link>
                   </li>
                   <li>
@@ -151,18 +157,18 @@ const Footer = () => {
           <div className="row w-100">
             <div className="col-md-12 text-center">
               <small>
-                © Copyright 2024, ToyBoy. Designed by{" "}
-                <small>
-                  Designed by &nbsp;
-                  <a  style={{color:'#ca9c5e'}}
+                © Copyright {new Date().getFullYear()}, ToyBoy. Designed by{" "}
+                <a
+                  style={{ color: '#ca9c5e' }}
                   target="_blank"
-                    href="https://www.digiindiasolutions.com/"
-                    className="text-decoration-none"
-                  >
-                    Digi India Solution
-                  </a>
-                </small>
+                  rel="noopener noreferrer"
+                  href="https://www.digiindiasolutions.com/"
+                  className="text-decoration-none"
+                >
+                  Digi India Solution
+                </a>
               </small>
+
             </div>
           </div>
         </div>
